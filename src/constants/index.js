@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  creativeportfolio,
+  vandy,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +82,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -108,19 +110,19 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2020 - June 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,8 +145,8 @@ const experiences = [
   // },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Vanderbilt University",
+    icon: vandy,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -155,18 +157,27 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "Intern",
+    company_name: "Omarion Worldwide",
+    // icon: "",
+    iconBg: "#383E56",
+    date: "Jan 2023 - June 2023",
+    points: [],
   },
+
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,30 +209,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Creative Portfolio",
+    description: "Portfolio built using ReactJS and Sanity. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "framer motion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: creativeportfolio,
+    source_code_link: "https://github.com/symlara/Aaliyah-3d-portfolio",
+    page_link: "https://aaliyah-portfolio.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "YouTube Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This site was build for learning purposes but it does function like a youtube style application.",
     tags: [
       {
         name: "react",
@@ -237,7 +256,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://asym-youtube-clone.netlify.app/",
   },
   {
     name: "Trip Guide",
