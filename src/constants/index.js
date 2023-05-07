@@ -25,6 +25,10 @@ import {
   threejs,
   creativeportfolio,
   vandy,
+  youtubeclone,
+  restaurantapp,
+  asymlyriksapp,
+  ecommerceapp,
 } from "../assets";
 
 export const navLinks = [
@@ -247,38 +251,178 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://asym-youtube-clone.netlify.app/",
+    image: youtubeclone,
+
+    page_link: "https://asym-youtube-clone.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Gericht Restaurant App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This app was built using ReactJS, and React-icons. It also is using dummy data. This site was built for developmental purposes.",
     tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "react-icons",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: restaurantapp,
+    source_code_link: "https://github.com/symlara/restaurant-app",
+    page_link: "https://gericht-restaurant-asym.netlify.app/",
+  },
+  {
+    name: "E-Commerce Site",
+    description:
+      "This is a fully functional e-commerce website that was built for learning purposes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
+
       {
-        name: "css",
+        name: "react-icons",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerceapp,
+    source_code_link: "https://github.com/symlara/ecommerce_sanity_site/",
+    page_link: "https://ecommerce-sanity-site.vercel.app/",
   },
+  {
+    name: "Spotify Music App Clone",
+    description:
+      "This site was created using React, TailwindCSS, Swiper, and ReduxJS. It was created for learning purposes but is fully functional.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "react-icons",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swiper",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: asymlyriksapp,
+    source_code_link: "https://github.com/symlara/asym-lyriks-app",
+    page_link: "https://asym-lyriks-app.netlify.app/",
+  },
+  {
+    name: "FutureVU Websites",
+    description:
+      "This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presence.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "twig",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerceapp,
+    source_code_link: "https://github.com/symlara/ecommerce_sanity_site/",
+    page_link: "https://ecommerce-sanity-site.vercel.app/",
+  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

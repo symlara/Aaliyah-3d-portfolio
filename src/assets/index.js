@@ -31,9 +31,17 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import creativeportfolio from "./creativeportfolio.png";
 import vandy from "./vandy.jpg";
+import youtubeclone from "./youtubeclone.png";
+import restaurantapp from "./gericht_restaurant_app.png";
+import asymlyriksapp from "./asym_lyriks_app.png";
+import ecommerceapp from "./ecommerce_app.png";
 
 export {
   // logo,
+  ecommerceapp,
+  asymlyriksapp,
+  restaurantapp,
+  youtubeclone,
   backend,
   creator,
   mobile,
