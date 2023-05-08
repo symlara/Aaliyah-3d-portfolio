@@ -29,6 +29,7 @@ import {
   restaurantapp,
   asymlyriksapp,
   ecommerceapp,
+  futurevusite,
 } from "../assets";
 
 export const navLinks = [
@@ -398,9 +399,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ecommerceapp,
-    source_code_link: "https://github.com/symlara/ecommerce_sanity_site/",
-    page_link: "https://ecommerce-sanity-site.vercel.app/",
+    image: futurevusite,
+    source_code_link: "",
+    page_link: "https://www.vanderbilt.edu/",
   },
   // {
   //   name: "Trip Guide",

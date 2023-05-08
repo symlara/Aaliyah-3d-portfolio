@@ -36,9 +36,12 @@ import restaurantapp from "./gericht_restaurant_app.png";
 import asymlyriksapp from "./asym_lyriks_app.png";
 import ecommerceapp from "./ecommerce_app.png";
 
+import futurevusite from "./futurevu_site.png";
+
 export {
   // logo,
   ecommerceapp,
+  futurevusite,
   asymlyriksapp,
   restaurantapp,
   youtubeclone,

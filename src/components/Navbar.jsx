@@ -23,13 +23,13 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain logo-img" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Aaliyah &nbsp;
             <span className="sm:block hidden"> | Symlar</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        {/* <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -41,8 +41,8 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-        </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        </ul> */}
+        {/* <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -72,7 +72,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
