@@ -37,6 +37,7 @@ import asymlyriksapp from "./asym_lyriks_app.png";
 import ecommerceapp from "./ecommerce_app.png";
 
 import futurevusite from "./futurevu_site.png";
+import sonicbookone from "./sonicbookone.png";
 
 export {
   // logo,
@@ -74,4 +75,5 @@ export {
   tripguide,
   creativeportfolio,
   vandy,
+  sonicbookone,
 };

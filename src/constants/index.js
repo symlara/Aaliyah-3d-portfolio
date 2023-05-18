@@ -30,6 +30,7 @@ import {
   asymlyriksapp,
   ecommerceapp,
   futurevusite,
+  sonicbookone,
 } from "../assets";
 
 export const navLinks = [
@@ -211,120 +212,44 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
 const projects = [
   {
-    name: "Creative Portfolio",
-    description: "Portfolio built using ReactJS and Sanity. ",
+    name: "Sonic Book One",
+    description:
+      "This is a website that was built for Omarion's music rollout for his new album Full Circle Sonic Book One. This site will continue to evolve as more music comes out. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "sanity",
+        name: "css",
         color: "green-text-gradient",
       },
+
       {
-        name: "tailwind",
+        name: "react-icons",
         color: "pink-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "blue-text-gradient",
       },
       {
         name: "sass",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: creativeportfolio,
-    source_code_link: "https://github.com/symlara/Aaliyah-3d-portfolio",
-    page_link: "https://aaliyah-portfolio.netlify.app/",
-  },
-  {
-    name: "YouTube Clone",
-    description:
-      "This site was build for learning purposes but it does function like a youtube style application.",
-    tags: [
-      {
-        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "react hover video",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "framer motion",
         color: "pink-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtubeclone,
-
-    page_link: "https://asym-youtube-clone.netlify.app/",
-  },
-  {
-    name: "Gericht Restaurant App",
-    description:
-      "This app was built using ReactJS, and React-icons. It also is using dummy data. This site was built for developmental purposes.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
+        name: "react tilt",
         color: "green-text-gradient",
       },
-
-      {
-        name: "react-icons",
-        color: "pink-text-gradient",
-      },
     ],
-    image: restaurantapp,
-    source_code_link: "https://github.com/symlara/restaurant-app",
-    page_link: "https://gericht-restaurant-asym.netlify.app/",
-  },
-  {
-    name: "E-Commerce Site",
-    description:
-      "This is a fully functional e-commerce website that was built for learning purposes.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-
-      {
-        name: "react-icons",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sanity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecommerceapp,
-    source_code_link: "https://github.com/symlara/ecommerce_sanity_site/",
-    page_link: "https://ecommerce-sanity-site.vercel.app/",
+    image: sonicbookone,
+    source_code_link: "https://omarionworldwide.com/",
   },
   {
     name: "Spotify Music App Clone",
@@ -366,20 +291,15 @@ const projects = [
       },
     ],
     image: asymlyriksapp,
-    source_code_link: "https://github.com/symlara/asym-lyriks-app",
-    page_link: "https://asym-lyriks-app.netlify.app/",
+    source_code_link: "https://asym-lyriks-app.netlify.app/",
   },
   {
-    name: "FutureVU Websites",
+    name: "Youtube Clone",
     description:
-      "This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presence.",
+      "This site was build for learning purposes but it does function like a youtube style application.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQL",
         color: "blue-text-gradient",
       },
       {
@@ -387,43 +307,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "sass",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
       {
-        name: "twig",
-        color: "green-text-gradient",
-      },
-      {
-        name: "php",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: futurevusite,
-    source_code_link: "",
-    page_link: "https://www.vanderbilt.edu/",
+    image: youtubeclone,
+    source_code_link: "https://asym-youtube-clone.netlify.app/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
