@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Resume from "../assets/Symlar_resume_23.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -44,6 +45,16 @@ const About = () => {
         apps using React.JS as my frontend JavaScript library. I'm also a
         skilled frontend developer with a passion for building functional and
         beautiful applications.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        Download my Resume{" "}
+        <a href={Resume} target="_blank" rel="noreferrer">
+          here
+        </a>
+        .
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
