@@ -31,6 +31,7 @@ import {
   ecommerceapp,
   futurevusite,
   sonicbookone,
+  nikecloneproject,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +42,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -214,6 +219,32 @@ const testimonials = [
 ];
 const projects = [
   {
+    name: "Nike Clone Project",
+    description:
+      "This is a website that was built for learning purposes. I do not own anything on the site itself and this is only a clone meant to demonstrate my skillset in building responsive, react websites. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nikecloneproject,
+    source_code_link: "https://nike-app-project.netlify.app/",
+  },
+  {
     name: "Sonic Book One",
     description:
       "This is a website that was built for Omarion's music rollout for his new album Full Circle Sonic Book One. This site will continue to evolve as more music comes out. ",
@@ -249,7 +280,7 @@ const projects = [
       },
     ],
     image: sonicbookone,
-    source_code_link: "https://omarionworldwide.com/",
+    source_code_link: "https://omarionworldwide.netlify.app/",
   },
   {
     name: "Spotify Music App Clone",

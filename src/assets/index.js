@@ -38,6 +38,7 @@ import ecommerceapp from "./ecommerce_app.png";
 
 import futurevusite from "./futurevu_site.png";
 import sonicbookone from "./sonicbookone.png";
+import nikecloneproject from "./nike-clone-project.png";
 
 export {
   // logo,
@@ -76,4 +77,5 @@ export {
   creativeportfolio,
   vandy,
   sonicbookone,
+  nikecloneproject,
 };
