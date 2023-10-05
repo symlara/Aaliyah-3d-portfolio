@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import Resume from "../assets/Aaliyah_Symlar_Resume-23.pdf";
+import Resume from "../assets/Aaliyah-Symlar-Resume-2023.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
