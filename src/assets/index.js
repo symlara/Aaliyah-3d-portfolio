@@ -39,6 +39,7 @@ import ecommerceapp from "./ecommerce_app.png";
 import futurevusite from "./futurevu_site.png";
 import sonicbookone from "./sonicbookone.png";
 import nikecloneproject from "./nike-clone-project.png";
+import omarionlogo from "./omarionlogo.png";
 
 export {
   // logo,
@@ -78,4 +79,5 @@ export {
   vandy,
   sonicbookone,
   nikecloneproject,
+  omarionlogo,
 };

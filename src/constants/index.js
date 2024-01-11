@@ -32,6 +32,7 @@ import {
   futurevusite,
   sonicbookone,
   nikecloneproject,
+  omarionlogo,
 } from "../assets";
 
 export const navLinks = [
@@ -170,10 +171,14 @@ const experiences = [
   {
     title: "Intern",
     company_name: "Omarion Worldwide",
-    // icon: "",
+    icon: omarionlogo,
     iconBg: "#383E56",
     date: "Jan 2023 - June 2023",
-    points: [],
+    points: [
+      "Assisting with developing the new web presence for singer Omarion and his team",
+      "Created a new website specifically for his album Sonic Book One rollout in 2023.",
+      "Learned a year's worth of knowledge about the music industry from Omarion's Director and the CEO of the company",
+    ],
   },
 
   // {
