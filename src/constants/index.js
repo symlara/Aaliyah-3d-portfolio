@@ -134,7 +134,7 @@ const experiences = [
     company_name: "",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "December 2020 - June 2021",
+    date: "December 2020 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -160,7 +160,7 @@ const experiences = [
     company_name: "Vanderbilt University",
     icon: vandy,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2017 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
