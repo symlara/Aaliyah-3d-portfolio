@@ -40,6 +40,7 @@ import futurevusite from "./futurevu_site.png";
 import sonicbookone from "./sonicbookone.png";
 import nikecloneproject from "./nike-clone-project.png";
 import omarionlogo from "./omarionlogo.png";
+import travelapp from "./travelapp.png";
 
 export {
   // logo,
@@ -80,4 +81,5 @@ export {
   sonicbookone,
   nikecloneproject,
   omarionlogo,
+  travelapp,
 };

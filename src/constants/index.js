@@ -33,6 +33,7 @@ import {
   sonicbookone,
   nikecloneproject,
   omarionlogo,
+  travelapp,
 } from "../assets";
 
 export const navLinks = [
@@ -332,7 +333,7 @@ const projects = [
   {
     name: "Youtube Clone",
     description:
-      "This site was build for learning purposes but it does function like a youtube style application.",
+      "This site was built for learning purposes but it does function like a youtube style application.",
     tags: [
       {
         name: "react",
@@ -353,6 +354,23 @@ const projects = [
     ],
     image: youtubeclone,
     source_code_link: "https://asym-youtube-clone.netlify.app/",
+  },
+  {
+    name: "Travel App",
+    description:
+      "This site was built to sharpen my UI/UX skills with ReactJS and TailwindCSS. It does not have any functional capabilities at this time but they can be added at a later date.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelapp,
+    source_code_link: "https://travel-app-three-alpha.vercel.app/",
   },
 ];
 
