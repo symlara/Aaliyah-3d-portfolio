@@ -41,6 +41,7 @@ import sonicbookone from "./sonicbookone.png";
 import nikecloneproject from "./nike-clone-project.png";
 import omarionlogo from "./omarionlogo.png";
 import travelapp from "./travelapp.png";
+import wordpressicon from "./wordpressicon.png";
 
 export {
   // logo,
@@ -82,4 +83,5 @@ export {
   nikecloneproject,
   omarionlogo,
   travelapp,
+  wordpressicon,
 };

@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { MdOutgoingMail } from "react-icons/md";
+
 //mQ1t4p0-HSbqy6iGN
 //template_cqfc4va
 //service_sosauis
@@ -74,6 +77,21 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className="flex flex-row gap-2">
+          <a
+            href="https://www.linkedin.com/in/aaliyah-symlar-931213102/"
+            target="_blank"
+            className="cursor-pointer z-20"
+          >
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/symlara" target="_blank">
+            <FaGithubSquare />
+          </a>
+          <a href="mailto:asym14@gmail.com" target="_blank">
+            <MdOutgoingMail />
+          </a>
+        </div>
 
         <form
           ref={formRef}

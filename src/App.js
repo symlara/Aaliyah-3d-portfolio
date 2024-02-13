@@ -8,6 +8,7 @@ import {
   Works,
   Contact,
   StarsCanvas,
+  Footer,
 } from "./components";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </HashRouter>
   );

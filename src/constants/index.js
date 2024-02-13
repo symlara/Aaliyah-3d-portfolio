@@ -34,6 +34,7 @@ import {
   nikecloneproject,
   omarionlogo,
   travelapp,
+  wordpressicon,
 } from "../assets";
 
 export const navLinks = [
@@ -57,20 +58,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   // {
   //   title: "React Native Developer",
   //   icon: mobile,
   // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "ReactJs Developer",
+    icon: web,
   },
 ];
 
@@ -123,15 +124,28 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "Wordpress",
+    icon: wordpressicon,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Tech Support Specialist/Web Developer",
+    company_name: "Vanderbilt University",
+    icon: vandy,
+    iconBg: "#383E56",
+    date: "July 2017 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "ReactJs Developer",
     company_name: "",
     icon: reactjs,
     iconBg: "#383E56",
@@ -157,20 +171,7 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Web Developer",
-    company_name: "Vanderbilt University",
-    icon: vandy,
-    iconBg: "#383E56",
-    date: "July 2017 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Intern",
+    title: "Marketing Intern",
     company_name: "Omarion Worldwide",
     icon: omarionlogo,
     iconBg: "#383E56",
@@ -225,35 +226,9 @@ const testimonials = [
 ];
 const projects = [
   {
-    name: "Nike Clone Project",
-    description:
-      "This is a website that was built for learning purposes. I do not own anything on the site itself and this is only a clone meant to demonstrate my skillset in building responsive, react websites. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: nikecloneproject,
-    source_code_link: "https://nike-app-project.netlify.app/",
-  },
-  {
     name: "Sonic Book One",
     description:
-      "This is a website that was built for Omarion's music rollout for his new album Full Circle Sonic Book One. This site will continue to evolve as more music comes out. ",
+      "This is a website that was built for Omarion's album rollout. This site is using ReacJS and TailwindCSS. I used my UI/UX knowledge to built our a site that would benefit Omarion as well as the fans who would visit the site.",
     tags: [
       {
         name: "react",
@@ -287,6 +262,32 @@ const projects = [
     ],
     image: sonicbookone,
     source_code_link: "https://omarionworldwide.netlify.app/",
+  },
+  {
+    name: "Nike Clone Project",
+    description:
+      "This is a website that was built for learning purposes. I do not own anything on the site itself and this is only a clone meant to demonstrate my skillset in building responsive, react websites. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nikecloneproject,
+    source_code_link: "https://nike-app-project.netlify.app/",
   },
   {
     name: "Spotify Music App Clone",
@@ -358,7 +359,7 @@ const projects = [
   {
     name: "Travel App",
     description:
-      "This site was built to sharpen my UI/UX skills with ReactJS and TailwindCSS. It does not have any functional capabilities at this time but they can be added at a later date.",
+      "This site was built to sharpen my UI skills with ReactJS and TailwindCSS. It does not have any functional capabilities at this time but they can be added at a later date.",
     tags: [
       {
         name: "react",

@@ -97,11 +97,11 @@ const Works = () => {
         >
           The following projects showcase my experience through some real-world
           and practice examples. Each project is briefly desribed and also
-          includes a link to the code repositories and the live demos. This
-          section reflects my ability to solve and complete complex problems and
-          also my ability to work with multiple technologies. This section also
-          showcases that I am a frontend developer with a passion for building
-          functional and beautiful applications.
+          includes a link to the live demos. This section reflects my ability to
+          solve and complete complex problems and also my ability to work with
+          multiple technologies. This section also showcases that I am a
+          frontend developer with a passion for building functional and
+          beautiful applications.
         </motion.p>
       </div>
 

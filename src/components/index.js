@@ -5,6 +5,7 @@ import Experience from "./Experience";
 import Tech from "./Tech";
 import Works from "./Works";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import { ComputersCanvas, StarsCanvas } from "./canvas";
 
 export {
@@ -16,5 +17,6 @@ export {
   Tech,
   Works,
   Contact,
+  Footer,
   StarsCanvas,
 };
