@@ -35,6 +35,7 @@ import {
   omarionlogo,
   travelapp,
   wordpressicon,
+  onwardupward,
 } from "../assets";
 
 export const navLinks = [
@@ -263,99 +264,74 @@ const projects = [
     image: sonicbookone,
     source_code_link: "https://omarionworldwide.netlify.app/",
   },
-  {
-    name: "Nike Clone Project",
-    description:
-      "This is a website that was built for learning purposes. I do not own anything on the site itself and this is only a clone meant to demonstrate my skillset in building responsive, react websites. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
+  // {
+  //   name: "Nike Clone Project",
+  //   description:
+  //     "This is a website that was built for learning purposes. I do not own anything on the site itself and this is only a clone meant to demonstrate my skillset in building responsive, react websites. ",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
 
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: nikecloneproject,
-    source_code_link: "https://nike-app-project.netlify.app/",
-  },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: nikecloneproject,
+  //   source_code_link: "https://nike-app-project.netlify.app/",
+  // },
   {
-    name: "Spotify Music App Clone",
+    name: "Onward & Upward",
     description:
       "This site was created using React, TailwindCSS, Swiper, and ReduxJS. It was created for learning purposes but is fully functional.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress CMS",
         color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "green-text-gradient",
       },
-
-      {
-        name: "react-icons",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "axios",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "swiper",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "blue-text-gradient",
-      },
     ],
-    image: asymlyriksapp,
-    source_code_link: "https://asym-lyriks-app.netlify.app/",
+    image: onwardupward,
+    source_code_link: "https://inspireexplorepromote.com/",
   },
-  {
-    name: "Youtube Clone",
-    description:
-      "This site was built for learning purposes but it does function like a youtube style application.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtubeclone,
-    source_code_link: "https://asym-youtube-clone.netlify.app/",
-  },
+  // {
+  //   name: "Youtube Clone",
+  //   description:
+  //     "This site was built for learning purposes but it does function like a youtube style application.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: youtubeclone,
+  //   source_code_link: "https://asym-youtube-clone.netlify.app/",
+  // },
   {
     name: "Travel App",
     description:
