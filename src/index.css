@@ -207,3 +207,10 @@
   height: 50px;
   width: 80px;
 }
+
+/* @media (max-width: 390px) {
+  .project-cards {
+    display: flex;
+    width: 100vw !important;
+  }
+} */
