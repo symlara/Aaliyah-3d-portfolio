@@ -36,6 +36,7 @@ import {
   travelapp,
   wordpressicon,
   onwardupward,
+  techhaven,
 } from "../assets";
 
 export const navLinks = [
@@ -332,6 +333,35 @@ const projects = [
   //   image: youtubeclone,
   //   source_code_link: "https://asym-youtube-clone.netlify.app/",
   // },
+  {
+    name: "Tech Haven App",
+    description:
+      "This site was built for learning purposes only. I have build an ecommerce website with stripe functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: techhaven,
+    source_code_link: "https://ecommerce-symlardev.payloadcms.app/",
+  },
   {
     name: "Travel App",
     description:

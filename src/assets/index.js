@@ -43,6 +43,7 @@ import omarionlogo from "./omarionlogo.png";
 import travelapp from "./travelapp.png";
 import wordpressicon from "./wordpressicon.png";
 import onwardupward from "./onwardupward.png";
+import techhaven from "./tech-haven.png";
 
 export {
   // logo,
@@ -86,4 +87,5 @@ export {
   travelapp,
   wordpressicon,
   onwardupward,
+  techhaven,
 };
