@@ -37,6 +37,7 @@ import {
   wordpressicon,
   onwardupward,
   techhaven,
+  brainwave,
 } from "../assets";
 
 export const navLinks = [
@@ -363,21 +364,29 @@ const projects = [
     source_code_link: "https://ecommerce-symlardev.payloadcms.app/",
   },
   {
-    name: "Travel App",
+    name: "Brainwave",
     description:
-      "This site was built to sharpen my UI skills with ReactJS and TailwindCSS. It does not have any functional capabilities at this time but they can be added at a later date.",
+      "This site was built to sharpen my UI skills with ViteJs, TailwindCSS, and ReactJs. It does not have any functional capabilities at this time but they may be added at a later date.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-just-parallax",
+        color: "green-text-gradient",
+      },
+      {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: travelapp,
-    source_code_link: "https://travel-app-three-alpha.vercel.app/",
+    image: brainwave,
+    source_code_link: "https://brainwave-asm.netlify.app/",
   },
 ];
 

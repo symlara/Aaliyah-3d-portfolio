@@ -44,6 +44,7 @@ import travelapp from "./travelapp.png";
 import wordpressicon from "./wordpressicon.png";
 import onwardupward from "./onwardupward.png";
 import techhaven from "./tech-haven.png";
+import brainwave from "./brainwave.png";
 
 export {
   // logo,
@@ -88,4 +89,5 @@ export {
   wordpressicon,
   onwardupward,
   techhaven,
+  brainwave,
 };
