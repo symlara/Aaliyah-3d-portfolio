@@ -45,6 +45,7 @@ import wordpressicon from "./wordpressicon.png";
 import onwardupward from "./onwardupward.png";
 import techhaven from "./tech-haven.png";
 import brainwave from "./brainwave.png";
+import Resume from "./Symlar_Resume_2024.pdf";
 
 export {
   // logo,
@@ -90,4 +91,5 @@ export {
   onwardupward,
   techhaven,
   brainwave,
+  Resume,
 };
