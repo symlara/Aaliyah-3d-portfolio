@@ -47,6 +47,8 @@ import techhaven from "./tech-haven.png";
 import brainwave from "./brainwave.png";
 import Resume from "./Symlar_Resume_2024.pdf";
 
+import apple from "./apple-titanium.png";
+
 export {
   // logo,
   ecommerceapp,
@@ -92,4 +94,5 @@ export {
   techhaven,
   brainwave,
   Resume,
+  apple,
 };

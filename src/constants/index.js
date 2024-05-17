@@ -38,6 +38,7 @@ import {
   onwardupward,
   techhaven,
   brainwave,
+  apple,
 } from "../assets";
 
 export const navLinks = [
@@ -363,6 +364,36 @@ const projects = [
   //   image: techhaven,
   //   source_code_link: "https://ecommerce-symlardev.payloadcms.app/",
   // },
+  {
+    name: "Apple Titanium Site",
+    description:
+      "This site was built for learning purposes only using ReactJS, Three, GSAP, and VITE.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "three",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apple,
+    source_code_link: "https://apple-titanium-clone.netlify.app/",
+  },
   {
     name: "Brainwave",
     description:
