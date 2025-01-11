@@ -39,6 +39,7 @@ import {
   techhaven,
   brainwave,
   apple,
+  HCAlogo
 } from "../assets";
 
 export const navLinks = [
@@ -136,11 +137,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Product Analyst",
+    company_name: "HCA Healthcare",
+    icon: HCAlogo,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Handle intake of enhancement requests, assessess for feasibility, and prioritizes based on business value and tracks to delivery.",
+      "Works closely with the business to plan for go-live, and ensure that the product is delivered on time and within scope.",
+      "Builds relationships, communicates, and collaborates with stakeholders of all levels, personalitie, and technical expertise, to ensure the product is delivered as expected.",
+      "Motivated to work independently and as part of a team, and to take on new tasks with high level of difficulty.",
+      "Analyzes data to identify trends and insights that can be used to improve the product.",
+    ],
+  },
+  {
     title: "Tech Support Specialist/Web Developer",
     company_name: "Vanderbilt University",
     icon: vandy,
     iconBg: "#383E56",
-    date: "July 2017 - Present",
+    date: "July 2017 - June 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

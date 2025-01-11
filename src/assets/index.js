@@ -35,6 +35,7 @@ import youtubeclone from "./youtubeclone.png";
 import restaurantapp from "./gericht_restaurant_app.png";
 import asymlyriksapp from "./asym_lyriks_app.png";
 import ecommerceapp from "./ecommerce_app.png";
+import HCAlogo from './HCAlogo.png'
 
 import futurevusite from "./futurevu_site.png";
 import sonicbookone from "./sonicbookone.png";
@@ -95,4 +96,5 @@ export {
   brainwave,
   Resume,
   apple,
+  HCAlogo
 };
