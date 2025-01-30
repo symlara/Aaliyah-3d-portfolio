@@ -39,7 +39,7 @@ import {
   techhaven,
   brainwave,
   apple,
-  HCAlogo
+  HCAlogo,
 } from "../assets";
 
 export const navLinks = [
@@ -308,23 +308,23 @@ const projects = [
   //   image: nikecloneproject,
   //   source_code_link: "https://nike-app-project.netlify.app/",
   // },
-  {
-    name: "Onward & Upward",
-    description:
-      "This site was created using React, TailwindCSS, Swiper, and ReduxJS. It was created for learning purposes but is fully functional.",
-    tags: [
-      {
-        name: "Wordpress CMS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: onwardupward,
-    source_code_link: "https://inspireexplorepromote.com/",
-  },
+  // {
+  //   name: "Onward & Upward",
+  //   description:
+  //     "This site was created using React, TailwindCSS, Swiper, and ReduxJS. It was created for learning purposes but is fully functional.",
+  //   tags: [
+  //     {
+  //       name: "Wordpress CMS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: onwardupward,
+  //   source_code_link: "https://inspireexplorepromote.com/",
+  // },
   // {
   //   name: "Youtube Clone",
   //   description:
