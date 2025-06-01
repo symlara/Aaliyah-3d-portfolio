@@ -78,6 +78,10 @@ const services = [
     title: "ReactJs Developer",
     icon: web,
   },
+  {
+    title: "NextJs Developer",
+    icon: web,
+  },
 ];
 
 const technologies = [

@@ -35,7 +35,7 @@ import youtubeclone from "./youtubeclone.png";
 import restaurantapp from "./gericht_restaurant_app.png";
 import asymlyriksapp from "./asym_lyriks_app.png";
 import ecommerceapp from "./ecommerce_app.png";
-import HCAlogo from './HCAlogo.png'
+import HCAlogo from "./HCAlogo.png";
 
 import futurevusite from "./futurevu_site.png";
 import sonicbookone from "./sonicbookone.png";
@@ -46,7 +46,7 @@ import wordpressicon from "./wordpressicon.png";
 import onwardupward from "./onwardupward.png";
 import techhaven from "./tech-haven.png";
 import brainwave from "./brainwave.png";
-import Resume from "./Symlar_Resume_2024.pdf";
+import Resume from "./Aaliyah-Resume-2025.pdf";
 
 import apple from "./apple-titanium.png";
 
@@ -96,5 +96,5 @@ export {
   brainwave,
   Resume,
   apple,
-  HCAlogo
+  HCAlogo,
 };

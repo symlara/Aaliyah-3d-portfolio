@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import Resume from "../assets/Symlar_Resume_2024.pdf";
+import Resume from "../assets/Aaliyah-Resume-2025.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -41,10 +41,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a knowledgable and talented React Developer and I enjoy building
-        apps using React.JS as my frontend JavaScript library. I'm also a
-        skilled frontend developer with a passion for building functional and
-        beautiful applications.
+        I am a knowledgable and talented Product Analyst & Developer. I enjoy
+        building apps using React.JS and Next JS as my frontend JavaScript
+        libraries of choice. I'm a skilled frontend developer with a passion for
+        building functional and beautiful applications. I am also actively in
+        the process of transitioning into the IT world, specifically focusing on
+        Linux Systems Administrator roles.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
