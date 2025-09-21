@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import Resume from "../assets/Aaliyah-Resume-2025.pdf";
+import Resume2025 from "../assets/Aaliyah Symlar-cyber-resume-2025.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -53,7 +53,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Download my Resume{" "}
-        <a href={Resume} target="_blank" rel="noreferrer">
+        <a href={Resume2025} target="_blank" rel="noreferrer">
           <span className="underline">here</span>
         </a>
         .
