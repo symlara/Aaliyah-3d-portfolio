@@ -47,7 +47,7 @@ import onwardupward from "./onwardupward.png";
 import techhaven from "./tech-haven.png";
 import brainwave from "./brainwave.png";
 import Resume from "./Aaliyah-Resume-2025.pdf";
-import Resume2025 from "./Aaliyah Symlar-cyber-resume-2025.pdf";
+import Resume2025 from "./Aaliyah Symlar-cyber-resume-2025 .pdf";
 
 import apple from "./apple-titanium.png";
 
