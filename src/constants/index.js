@@ -40,6 +40,7 @@ import {
   brainwave,
   apple,
   HCAlogo,
+  capstoneproject2025,
 } from "../assets";
 
 export const navLinks = [
@@ -414,29 +415,33 @@ const projects = [
     source_code_link: "https://apple-titanium-clone.netlify.app/",
   },
   {
-    name: "Brainwave",
+    name: "Cloud Security and Risk Management Framework(RMF) Implementation ",
     description:
-      "This site was built to sharpen my UI skills with ViteJs, TailwindCSS, and ReactJs. It does not have any functional capabilities at this time but they may be added at a later date.",
+      "A team-based effort, through a Capstone project, where we applied the entire Risk Management Framework (RMF) process to a real-world Cloud AI application (BeaconAI). This collaborative effort steghtens my understanding of how a real-world assessment would be.",
     tags: [
       {
-        name: "react",
+        name: "RMF",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react-just-parallax",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
+        name: "Cybersecurity",
         color: "pink-text-gradient",
       },
+      {
+        name: "NIST RMF",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NIST CSF",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloud Security",
+        color: "blue-text-gradient",
+      },
     ],
-    image: brainwave,
-    source_code_link: "https://brainwave-asm.netlify.app/",
+    image: capstoneproject2025,
+    source_code_link: "#",
   },
 ];
 

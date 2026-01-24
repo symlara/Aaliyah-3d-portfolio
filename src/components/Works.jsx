@@ -97,11 +97,11 @@ const Works = () => {
         >
           The following projects showcase my experience through some real-world
           and practice examples. Each project is briefly desribed and also
-          includes a link to the live demos. This section reflects my ability to
+          includes a link to the live demos if they're live. This section reflects my ability to
           solve and complete complex problems and also my ability to work with
           multiple technologies. This section also showcases that I am a
-          frontend developer with a passion for building functional and
-          beautiful applications.
+          frontend developer, and Cybersecurity professional with a passion for building functional and
+          beautiful applications as well as keeping your site secure.
         </motion.p>
       </div>
 
