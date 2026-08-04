@@ -46,8 +46,7 @@ import wordpressicon from "./wordpressicon.png";
 import onwardupward from "./onwardupward.png";
 import techhaven from "./tech-haven.png";
 import brainwave from "./brainwave.png";
-import Resume from "./Aaliyah-Resume-2025.pdf";
-import Resume2025 from "./Aaliyah Symlar-cyber-resume-2025 .pdf";
+import Resume2025 from "./Aaliyah_Symlar_Resume.pdf";
 import capstoneproject2025 from "./capstone-project-2025.png";
 
 import apple from "./apple-titanium.png";
@@ -96,7 +95,6 @@ export {
   onwardupward,
   techhaven,
   brainwave,
-  Resume,
   apple,
   HCAlogo,
   Resume2025,
